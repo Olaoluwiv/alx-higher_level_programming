@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 #  Prints the number of and the list of its arguments
 if __name__ == "__main__":
-    import sys
+    from sys import arg
 
     arg = sys.argv
     size = len(arg) - 1
