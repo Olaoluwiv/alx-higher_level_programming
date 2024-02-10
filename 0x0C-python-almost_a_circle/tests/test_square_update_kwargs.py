@@ -9,6 +9,8 @@ from models.base import Base
 from models.square import Square
 
 class TestSquare_update_kwargs(unittest.TestCase):
+
+
     """Unittests for testing update kwargs method of Square class."""
 
     def test_update_kwargs_one(self):

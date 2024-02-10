@@ -7,6 +7,8 @@ from models.square import Square
 
 
 class TestSquare_update_args(unittest.TestCase):
+
+
     """Unittests for testing update args method of the Square class."""
 
     def test_update_args_zero(self):
